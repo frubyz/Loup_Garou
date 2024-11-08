@@ -2,17 +2,20 @@
 #pragma once
 
 class Players {
-private:
-    std::string m_Name;
-    std::string m_Role;
+private :
+    std::string Name;
+    std::string Role;
     int Ip;
 
-public:
-    Players(std::string Name, std::string Role) : m_Name(Name), m_Role(Role) {
+public :
+    Players(std::string Name, std::string Role) : Name(Name), Role(Role) {
 
     }
 
     void Reveal() {
-        std::cout << m_Name << " is a " << m_Role << std::endl;
+        std::cout << Name << " is a " << Role << std::endl;
+    }
+    void Reveal(std::string VillageName) {
+        std::cout << Name << " is a " << Role << " in the village of " << VillageName << std::endl;
     }
 };
