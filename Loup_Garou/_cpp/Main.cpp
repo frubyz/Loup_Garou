@@ -1,5 +1,5 @@
 #pragma once
-#include "Main.h"
+#include "../_h/Main.h"
 
 std::map<std::string, Players> player;
 

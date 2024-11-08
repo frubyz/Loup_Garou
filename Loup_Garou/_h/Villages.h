@@ -1,6 +1,7 @@
 #pragma once
 
 class Villages {
+
 private:
     bool IsDay = true;
     std::string VillageName;
