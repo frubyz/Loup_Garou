@@ -364,3 +364,11 @@ FodyWeavers.xsd
 
 # Library
 External
+
+# Resouce
+Resource
+
+# VisualStudio
+Loup_Garou.sln
+/Loup_Garou/Loup_Garou.vcxproj.filters
+/Loup_Garou/Loup_Garou.vcxproj
