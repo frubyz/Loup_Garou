@@ -1,7 +1,9 @@
 #pragma once
 #include "Main.h"
 
-int main() 
+std::map<std::string, Players> player;
 
-    return 0;
+int main() {
+
+	return 0;
 }

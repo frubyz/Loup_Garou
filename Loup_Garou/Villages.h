@@ -1,11 +1,11 @@
 #pragma once
 
 class Villages {
-private :
+private:
     bool IsDay = true;
     std::string VillageName;
 
-public :
+public:
     Villages(std::string Name) : VillageName(Name) {
 
     }
